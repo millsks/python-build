@@ -52,5 +52,6 @@ htmlcov/
 *.tmp
 
 # Ignore Python source tarballs
+sources/
 Python-*.tgz
 Python-*.tar.gz
