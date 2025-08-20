@@ -65,7 +65,10 @@ sudo pkgbuild \
 ### 6. Create .dmg Disk Image (Optional)
 ```sh
 brew install create-dmg
-create-dmg Python-3.12.11.pkg
+# Create a temporary folder with the .pkg file
+mkdir -p dmg-contents
+cp Python-3.12.11.pkg dmg-contents/
+create-dmg --volname "Python 3.12.11" Python-3.12.11.dmg dmg-contents/
 ```
 
 ---
