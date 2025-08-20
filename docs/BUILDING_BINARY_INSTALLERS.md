@@ -38,8 +38,8 @@ cd Python-3.12.11
 
 ### 3. Configure Build
 ```sh
-export CPPFLAGS="-I$(brew --prefix tcl-tk)/include"
-export LDFLAGS="-L$(brew --prefix tcl-tk)/lib"
+export CPPFLAGS="-I$(brew --prefix tcl-tk)/include -I$(brew --prefix gdbm)/include"
+export LDFLAGS="-L$(brew --prefix tcl-tk)/lib -L$(brew --prefix gdbm)/lib"
 
 ./configure \
   --enable-optimizations \
