@@ -27,7 +27,7 @@ This change aligns with the Python 3.12 release schedule as defined in [PEP 693 
 ### 1. Install Dependencies
 ```sh
 xcode-select --install
-brew install openssl readline sqlite3 xz zlib
+brew install openssl readline sqlite3 xz zlib gdbm tcl-tk pkg-config
 ```
 
 ### 2. Prepare Source
@@ -38,6 +38,9 @@ cd Python-3.12.11
 
 ### 3. Configure Build
 ```sh
+export CPPFLAGS="-I$(brew --prefix tcl-tk)/include"
+export LDFLAGS="-L$(brew --prefix tcl-tk)/lib"
+
 ./configure \
   --enable-optimizations \
   --with-openssl=$(brew --prefix openssl) \
