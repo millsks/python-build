@@ -2,6 +2,12 @@
 
 This guide provides step-by-step instructions to build binary installers for Python 3.12 (matching the types distributed at [python.org for 3.12.10](https://www.python.org/downloads/release/python-31210/)) on both macOS and Windows.
 
+## Minimum Version & Rationale
+
+Starting with Python 3.12.11, official binary installers for macOS and Windows are no longer provided by the Python release team. Only source distributions and security updates are published for these versions. Therefore, you must build your own binary installers for Python 3.12.11 and later if you require them for local installation or distribution.
+
+Earlier Python 3.12 releases (up to 3.12.10) included official binary installers, so manual builds are only necessary for 3.12.11 and newer.
+
 ## Prerequisites
 
 - **Source Code:** Download the official Python 3.12.x source from [python.org](https://www.python.org/ftp/python/3.12.10/Python-3.12.10.tgz).
