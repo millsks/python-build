@@ -73,7 +73,7 @@ create-dmg --volname "Python 3.12.11" Python-3.12.11.dmg dmg-contents/
 
 ---
 
-## Windows Installer (.exe and .msi)
+## Windows Installer (.exe and .msi) [DRAFT/UNTESTED]
 
 ### 1. Install Dependencies
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) (Desktop development with C++)
