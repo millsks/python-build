@@ -8,9 +8,11 @@ Starting with Python 3.12.11, official binary installers for macOS and Windows a
 
 Earlier Python 3.12 releases (up to 3.12.10) included official binary installers, so manual builds are only necessary for 3.12.11 and newer.
 
+This change aligns with the Python 3.12 release schedule as defined in [PEP 693 - Python 3.12 Release Schedule](https://peps.python.org/pep-0693/), which transitioned the release to security-fix-only status with source-only distributions.
+
 ## Prerequisites
 
-- **Source Code:** Download the official Python 3.12.x source from [python.org](https://www.python.org/ftp/python/3.12.11/Python-3.12.11.tgz).
+- **Source Code:** Download the official Python 3.12.x source from python.org (e.g., [Python 3.12.11](https://www.python.org/ftp/python/3.12.11/Python-3.12.11.tgz)).
 - **Build Tools:**
   - macOS: Xcode, Homebrew, required libraries
   - Windows: Visual Studio, required SDKs
