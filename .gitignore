@@ -1,0 +1,56 @@
+# Python build artifacts
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+*.dll
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.app
+*.log
+
+# Installer output
+*.pkg
+*.dmg
+*.msi
+*.exe
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Virtual environments
+venv/
+.env/
+ENV/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Documentation build
+/docs/_build/
+
+# Test and coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Misc
+*.bak
+*.tmp
+
+# Ignore Python source tarballs
+Python-*.tgz
+Python-*.tar.gz
